@@ -1,14 +1,10 @@
-FROM bitwardenrs/server:latest
+FROM bitwardenrs/server:alpine
 
-# 使用 mariadb-client 代替 mysql-client
-# debian 下安装 mysql-client 较困难
-RUN apt-get update && echo 'y' | apt install mariadb-client
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
+RUN apk add mysql-client
 
 COPY ./entrypoint.sh ./entrypoint.sh
-
 RUN chmod +x ./entrypoint.sh
-
 ENTRYPOINT [ "./entrypoint.sh" ]
-
 CMD ["/start.sh"]
 
