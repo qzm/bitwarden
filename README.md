@@ -12,7 +12,7 @@ Bitwarden 是一款自由且开源的密码管理服务，用户可在加密的�
 
 MySQL 部署（MySQL + 文件存储）[![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&tdl_anchor=github&tdl_site=0&appUrl=https://github.com/qzm/bitwarden)
 
-SQLite 部署（文件存储）[![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&appUrl=https%3A%2F%2Fgithub.com%2FTencentCloudBase-Marketplace%2Fbitwarden&branch=cfs-only)
+SQLite 部署（文件存储）[![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&appUrl=https://github.com/qzm/bitwarden?branch=cfs-only)
 
 ### 配置
 
